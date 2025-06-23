@@ -1,8 +1,0 @@
----
-description: 
-globs: 
-alwaysApply: true
----
-# Be agentic about reading the repo
-
-You can browse the repo. Whenever you think there might be relevant code that is not mentioned, search for those files and read the relevant code. Do not reimplement functionality that already exists. Do not make changes incompatible with existing code. Don't ask the user to show you a file you need, search for the file yourself.

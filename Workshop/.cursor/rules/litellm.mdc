@@ -1,6 +1,0 @@
----
-description: 
-globs: 
-alwaysApply: true
----
-Use LiteLLM for LLM calls. However, do not import it directly; import the function litellm_completion from litellm_logger in the main src directory, and use it as you would use litellm.completion.

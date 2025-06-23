@@ -1,9 +1,0 @@
-{
-    "model_name_or_path": "distilbert/distilgpt2",
-    "tokenizer_name_or_path": "distilbert/distilgpt2",
-    "torch_dtype": "float32",
-    "trust_remote_code": false,
-    "use_fast_tokenizer": true,
-    "max_position_embeddings": 1024,
-    "model_type": "text"
-} 
