@@ -453,7 +453,7 @@ if perspective_dataset.position_types:
 
 # %%
 # Set up tokenizer
-tokenizer = AutoTokenizer.from_pretrained("google/gemma-2-2b")
+tokenizer = AutoTokenizer.from_pretrained("gpt2")
 tokenizer.pad_token = tokenizer.eos_token
 
 # Tokenize the question dataset
@@ -504,10 +504,10 @@ print(
 # We'll try multiple model layers to see which ones work best.
 
 # %% Configure models and hook points
-model_name = "google/gemma-2-2b"
+model_name = "gpt2"
 
 # IMPROVEMENT: Test multiple hook points (layers) to find the best one
-hook_points = [f"blocks.{layer}.hook_resid_pre" for layer in [8, 16, 24]]
+hook_points = [f"blocks.{layer}.hook_resid_pre" for layer in [4, 8, 11]]
 
 # Get model's hidden dimension dynamically
 model = HookedTransformer.from_pretrained(model_name, device=device)

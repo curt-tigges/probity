@@ -1,0 +1,9 @@
+{
+    "model_name_or_path": "distilbert/distilgpt2",
+    "model_type": "text",
+    "trust_remote_code": false,
+    "torch_dtype": "float32",
+    "quantization_config": null,
+    "attn_implementation": "eager",
+    "chat_template_config": null
+}

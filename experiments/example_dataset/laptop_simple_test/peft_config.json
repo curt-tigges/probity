@@ -1,0 +1,14 @@
+{
+    "peft_type": "LORA",
+    "task_type": "CAUSAL_LM",
+    "r": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.1,
+    "target_modules": [
+        "attn.c_attn",
+        "attn.c_proj",
+        "mlp.c_fc",
+        "mlp.c_proj"
+    ],
+    "bias": "none"
+}

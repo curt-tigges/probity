@@ -369,7 +369,7 @@ print(f"Label mapping: {start_letter_dataset.label_mapping}")
 # %%
 # Set up tokenizer
 # Using a small model for faster demonstration
-model_name = "google/gemma-2-2b"
+model_name = "gpt2"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 # Set pad token if not already set
 if tokenizer.pad_token is None:

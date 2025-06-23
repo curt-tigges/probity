@@ -1,0 +1,568 @@
+{
+  "suite_name": "distilgpt2_quick_test",
+  "description": "Quick hyperparameter test for DistilGPT2 - minimal sweep for fast iteration",
+  "created_at": "2025-06-20T17:06:51.765201",
+  "total_experiments": 16,
+  "experiments": [
+    {
+      "experiment_id": "distilgpt2_sft-only_example_dataset_distilgpt2_sle5e-05-snu1-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse",
+      "suite_name": "distilgpt2_quick_test",
+      "created_at": "2025-06-20T17:06:51.765068",
+      "model": "distilgpt2",
+      "pipeline_config_name": "sft_only",
+      "dataset_name": "example_dataset",
+      "peft_config_name": "lora_distilgpt2",
+      "seed": 42,
+      "stage_overrides": {
+        "sft": {
+          "learning_rate": 5e-05,
+          "num_train_epochs": 1,
+          "per_device_train_batch_size": 2,
+          "bf16": false,
+          "fp16": false,
+          "gradient_checkpointing": false,
+          "max_length": 512,
+          "packing": false
+        }
+      },
+      "stage_config_selections": null,
+      "wandb_run_url": null,
+      "status": "planned",
+      "final_model_path": null,
+      "metrics": null,
+      "tags": [
+        "suite:distilgpt2_quick_test",
+        "model:distilgpt2",
+        "pipeline:sft_only",
+        "dataset:example_dataset",
+        "seed:42",
+        "peft:lora_distilgpt2"
+      ]
+    },
+    {
+      "experiment_id": "distilgpt2_sft-only_example_dataset_distilgpt2_sle5e-05-snu1-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse",
+      "suite_name": "distilgpt2_quick_test",
+      "created_at": "2025-06-20T17:06:51.765093",
+      "model": "distilgpt2",
+      "pipeline_config_name": "sft_only",
+      "dataset_name": "example_dataset",
+      "peft_config_name": "lora_distilgpt2",
+      "seed": 42,
+      "stage_overrides": {
+        "sft": {
+          "learning_rate": 5e-05,
+          "num_train_epochs": 1,
+          "per_device_train_batch_size": 4,
+          "bf16": false,
+          "fp16": false,
+          "gradient_checkpointing": false,
+          "max_length": 512,
+          "packing": false
+        }
+      },
+      "stage_config_selections": null,
+      "wandb_run_url": null,
+      "status": "planned",
+      "final_model_path": null,
+      "metrics": null,
+      "tags": [
+        "suite:distilgpt2_quick_test",
+        "model:distilgpt2",
+        "pipeline:sft_only",
+        "dataset:example_dataset",
+        "seed:42",
+        "peft:lora_distilgpt2"
+      ]
+    },
+    {
+      "experiment_id": "distilgpt2_sft-only_example_dataset_distilgpt2_sle5e-05-snu2-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse",
+      "suite_name": "distilgpt2_quick_test",
+      "created_at": "2025-06-20T17:06:51.765103",
+      "model": "distilgpt2",
+      "pipeline_config_name": "sft_only",
+      "dataset_name": "example_dataset",
+      "peft_config_name": "lora_distilgpt2",
+      "seed": 42,
+      "stage_overrides": {
+        "sft": {
+          "learning_rate": 5e-05,
+          "num_train_epochs": 2,
+          "per_device_train_batch_size": 2,
+          "bf16": false,
+          "fp16": false,
+          "gradient_checkpointing": false,
+          "max_length": 512,
+          "packing": false
+        }
+      },
+      "stage_config_selections": null,
+      "wandb_run_url": null,
+      "status": "planned",
+      "final_model_path": null,
+      "metrics": null,
+      "tags": [
+        "suite:distilgpt2_quick_test",
+        "model:distilgpt2",
+        "pipeline:sft_only",
+        "dataset:example_dataset",
+        "seed:42",
+        "peft:lora_distilgpt2"
+      ]
+    },
+    {
+      "experiment_id": "distilgpt2_sft-only_example_dataset_distilgpt2_sle5e-05-snu2-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse",
+      "suite_name": "distilgpt2_quick_test",
+      "created_at": "2025-06-20T17:06:51.765110",
+      "model": "distilgpt2",
+      "pipeline_config_name": "sft_only",
+      "dataset_name": "example_dataset",
+      "peft_config_name": "lora_distilgpt2",
+      "seed": 42,
+      "stage_overrides": {
+        "sft": {
+          "learning_rate": 5e-05,
+          "num_train_epochs": 2,
+          "per_device_train_batch_size": 4,
+          "bf16": false,
+          "fp16": false,
+          "gradient_checkpointing": false,
+          "max_length": 512,
+          "packing": false
+        }
+      },
+      "stage_config_selections": null,
+      "wandb_run_url": null,
+      "status": "planned",
+      "final_model_path": null,
+      "metrics": null,
+      "tags": [
+        "suite:distilgpt2_quick_test",
+        "model:distilgpt2",
+        "pipeline:sft_only",
+        "dataset:example_dataset",
+        "seed:42",
+        "peft:lora_distilgpt2"
+      ]
+    },
+    {
+      "experiment_id": "distilgpt2_sft-only_example_dataset_distilgpt2_sle0.0001-snu1-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse",
+      "suite_name": "distilgpt2_quick_test",
+      "created_at": "2025-06-20T17:06:51.765116",
+      "model": "distilgpt2",
+      "pipeline_config_name": "sft_only",
+      "dataset_name": "example_dataset",
+      "peft_config_name": "lora_distilgpt2",
+      "seed": 42,
+      "stage_overrides": {
+        "sft": {
+          "learning_rate": 0.0001,
+          "num_train_epochs": 1,
+          "per_device_train_batch_size": 2,
+          "bf16": false,
+          "fp16": false,
+          "gradient_checkpointing": false,
+          "max_length": 512,
+          "packing": false
+        }
+      },
+      "stage_config_selections": null,
+      "wandb_run_url": null,
+      "status": "planned",
+      "final_model_path": null,
+      "metrics": null,
+      "tags": [
+        "suite:distilgpt2_quick_test",
+        "model:distilgpt2",
+        "pipeline:sft_only",
+        "dataset:example_dataset",
+        "seed:42",
+        "peft:lora_distilgpt2"
+      ]
+    },
+    {
+      "experiment_id": "distilgpt2_sft-only_example_dataset_distilgpt2_sle0.0001-snu1-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse",
+      "suite_name": "distilgpt2_quick_test",
+      "created_at": "2025-06-20T17:06:51.765122",
+      "model": "distilgpt2",
+      "pipeline_config_name": "sft_only",
+      "dataset_name": "example_dataset",
+      "peft_config_name": "lora_distilgpt2",
+      "seed": 42,
+      "stage_overrides": {
+        "sft": {
+          "learning_rate": 0.0001,
+          "num_train_epochs": 1,
+          "per_device_train_batch_size": 4,
+          "bf16": false,
+          "fp16": false,
+          "gradient_checkpointing": false,
+          "max_length": 512,
+          "packing": false
+        }
+      },
+      "stage_config_selections": null,
+      "wandb_run_url": null,
+      "status": "planned",
+      "final_model_path": null,
+      "metrics": null,
+      "tags": [
+        "suite:distilgpt2_quick_test",
+        "model:distilgpt2",
+        "pipeline:sft_only",
+        "dataset:example_dataset",
+        "seed:42",
+        "peft:lora_distilgpt2"
+      ]
+    },
+    {
+      "experiment_id": "distilgpt2_sft-only_example_dataset_distilgpt2_sle0.0001-snu2-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse",
+      "suite_name": "distilgpt2_quick_test",
+      "created_at": "2025-06-20T17:06:51.765128",
+      "model": "distilgpt2",
+      "pipeline_config_name": "sft_only",
+      "dataset_name": "example_dataset",
+      "peft_config_name": "lora_distilgpt2",
+      "seed": 42,
+      "stage_overrides": {
+        "sft": {
+          "learning_rate": 0.0001,
+          "num_train_epochs": 2,
+          "per_device_train_batch_size": 2,
+          "bf16": false,
+          "fp16": false,
+          "gradient_checkpointing": false,
+          "max_length": 512,
+          "packing": false
+        }
+      },
+      "stage_config_selections": null,
+      "wandb_run_url": null,
+      "status": "planned",
+      "final_model_path": null,
+      "metrics": null,
+      "tags": [
+        "suite:distilgpt2_quick_test",
+        "model:distilgpt2",
+        "pipeline:sft_only",
+        "dataset:example_dataset",
+        "seed:42",
+        "peft:lora_distilgpt2"
+      ]
+    },
+    {
+      "experiment_id": "distilgpt2_sft-only_example_dataset_distilgpt2_sle0.0001-snu2-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse",
+      "suite_name": "distilgpt2_quick_test",
+      "created_at": "2025-06-20T17:06:51.765134",
+      "model": "distilgpt2",
+      "pipeline_config_name": "sft_only",
+      "dataset_name": "example_dataset",
+      "peft_config_name": "lora_distilgpt2",
+      "seed": 42,
+      "stage_overrides": {
+        "sft": {
+          "learning_rate": 0.0001,
+          "num_train_epochs": 2,
+          "per_device_train_batch_size": 4,
+          "bf16": false,
+          "fp16": false,
+          "gradient_checkpointing": false,
+          "max_length": 512,
+          "packing": false
+        }
+      },
+      "stage_config_selections": null,
+      "wandb_run_url": null,
+      "status": "planned",
+      "final_model_path": null,
+      "metrics": null,
+      "tags": [
+        "suite:distilgpt2_quick_test",
+        "model:distilgpt2",
+        "pipeline:sft_only",
+        "dataset:example_dataset",
+        "seed:42",
+        "peft:lora_distilgpt2"
+      ]
+    },
+    {
+      "experiment_id": "distilgpt2_sft-only_example_dataset_r8a16_sle5e-05-snu1-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse",
+      "suite_name": "distilgpt2_quick_test",
+      "created_at": "2025-06-20T17:06:51.765149",
+      "model": "distilgpt2",
+      "pipeline_config_name": "sft_only",
+      "dataset_name": "example_dataset",
+      "peft_config_name": "lora_r8_a16",
+      "seed": 42,
+      "stage_overrides": {
+        "sft": {
+          "learning_rate": 5e-05,
+          "num_train_epochs": 1,
+          "per_device_train_batch_size": 2,
+          "bf16": false,
+          "fp16": false,
+          "gradient_checkpointing": false,
+          "max_length": 512,
+          "packing": false
+        }
+      },
+      "stage_config_selections": null,
+      "wandb_run_url": null,
+      "status": "planned",
+      "final_model_path": null,
+      "metrics": null,
+      "tags": [
+        "suite:distilgpt2_quick_test",
+        "model:distilgpt2",
+        "pipeline:sft_only",
+        "dataset:example_dataset",
+        "seed:42",
+        "peft:lora_r8_a16"
+      ]
+    },
+    {
+      "experiment_id": "distilgpt2_sft-only_example_dataset_r8a16_sle5e-05-snu1-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse",
+      "suite_name": "distilgpt2_quick_test",
+      "created_at": "2025-06-20T17:06:51.765155",
+      "model": "distilgpt2",
+      "pipeline_config_name": "sft_only",
+      "dataset_name": "example_dataset",
+      "peft_config_name": "lora_r8_a16",
+      "seed": 42,
+      "stage_overrides": {
+        "sft": {
+          "learning_rate": 5e-05,
+          "num_train_epochs": 1,
+          "per_device_train_batch_size": 4,
+          "bf16": false,
+          "fp16": false,
+          "gradient_checkpointing": false,
+          "max_length": 512,
+          "packing": false
+        }
+      },
+      "stage_config_selections": null,
+      "wandb_run_url": null,
+      "status": "planned",
+      "final_model_path": null,
+      "metrics": null,
+      "tags": [
+        "suite:distilgpt2_quick_test",
+        "model:distilgpt2",
+        "pipeline:sft_only",
+        "dataset:example_dataset",
+        "seed:42",
+        "peft:lora_r8_a16"
+      ]
+    },
+    {
+      "experiment_id": "distilgpt2_sft-only_example_dataset_r8a16_sle5e-05-snu2-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse",
+      "suite_name": "distilgpt2_quick_test",
+      "created_at": "2025-06-20T17:06:51.765160",
+      "model": "distilgpt2",
+      "pipeline_config_name": "sft_only",
+      "dataset_name": "example_dataset",
+      "peft_config_name": "lora_r8_a16",
+      "seed": 42,
+      "stage_overrides": {
+        "sft": {
+          "learning_rate": 5e-05,
+          "num_train_epochs": 2,
+          "per_device_train_batch_size": 2,
+          "bf16": false,
+          "fp16": false,
+          "gradient_checkpointing": false,
+          "max_length": 512,
+          "packing": false
+        }
+      },
+      "stage_config_selections": null,
+      "wandb_run_url": null,
+      "status": "planned",
+      "final_model_path": null,
+      "metrics": null,
+      "tags": [
+        "suite:distilgpt2_quick_test",
+        "model:distilgpt2",
+        "pipeline:sft_only",
+        "dataset:example_dataset",
+        "seed:42",
+        "peft:lora_r8_a16"
+      ]
+    },
+    {
+      "experiment_id": "distilgpt2_sft-only_example_dataset_r8a16_sle5e-05-snu2-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse",
+      "suite_name": "distilgpt2_quick_test",
+      "created_at": "2025-06-20T17:06:51.765166",
+      "model": "distilgpt2",
+      "pipeline_config_name": "sft_only",
+      "dataset_name": "example_dataset",
+      "peft_config_name": "lora_r8_a16",
+      "seed": 42,
+      "stage_overrides": {
+        "sft": {
+          "learning_rate": 5e-05,
+          "num_train_epochs": 2,
+          "per_device_train_batch_size": 4,
+          "bf16": false,
+          "fp16": false,
+          "gradient_checkpointing": false,
+          "max_length": 512,
+          "packing": false
+        }
+      },
+      "stage_config_selections": null,
+      "wandb_run_url": null,
+      "status": "planned",
+      "final_model_path": null,
+      "metrics": null,
+      "tags": [
+        "suite:distilgpt2_quick_test",
+        "model:distilgpt2",
+        "pipeline:sft_only",
+        "dataset:example_dataset",
+        "seed:42",
+        "peft:lora_r8_a16"
+      ]
+    },
+    {
+      "experiment_id": "distilgpt2_sft-only_example_dataset_r8a16_sle0.0001-snu1-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse",
+      "suite_name": "distilgpt2_quick_test",
+      "created_at": "2025-06-20T17:06:51.765172",
+      "model": "distilgpt2",
+      "pipeline_config_name": "sft_only",
+      "dataset_name": "example_dataset",
+      "peft_config_name": "lora_r8_a16",
+      "seed": 42,
+      "stage_overrides": {
+        "sft": {
+          "learning_rate": 0.0001,
+          "num_train_epochs": 1,
+          "per_device_train_batch_size": 2,
+          "bf16": false,
+          "fp16": false,
+          "gradient_checkpointing": false,
+          "max_length": 512,
+          "packing": false
+        }
+      },
+      "stage_config_selections": null,
+      "wandb_run_url": null,
+      "status": "planned",
+      "final_model_path": null,
+      "metrics": null,
+      "tags": [
+        "suite:distilgpt2_quick_test",
+        "model:distilgpt2",
+        "pipeline:sft_only",
+        "dataset:example_dataset",
+        "seed:42",
+        "peft:lora_r8_a16"
+      ]
+    },
+    {
+      "experiment_id": "distilgpt2_sft-only_example_dataset_r8a16_sle0.0001-snu1-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse",
+      "suite_name": "distilgpt2_quick_test",
+      "created_at": "2025-06-20T17:06:51.765177",
+      "model": "distilgpt2",
+      "pipeline_config_name": "sft_only",
+      "dataset_name": "example_dataset",
+      "peft_config_name": "lora_r8_a16",
+      "seed": 42,
+      "stage_overrides": {
+        "sft": {
+          "learning_rate": 0.0001,
+          "num_train_epochs": 1,
+          "per_device_train_batch_size": 4,
+          "bf16": false,
+          "fp16": false,
+          "gradient_checkpointing": false,
+          "max_length": 512,
+          "packing": false
+        }
+      },
+      "stage_config_selections": null,
+      "wandb_run_url": null,
+      "status": "planned",
+      "final_model_path": null,
+      "metrics": null,
+      "tags": [
+        "suite:distilgpt2_quick_test",
+        "model:distilgpt2",
+        "pipeline:sft_only",
+        "dataset:example_dataset",
+        "seed:42",
+        "peft:lora_r8_a16"
+      ]
+    },
+    {
+      "experiment_id": "distilgpt2_sft-only_example_dataset_r8a16_sle0.0001-snu2-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse",
+      "suite_name": "distilgpt2_quick_test",
+      "created_at": "2025-06-20T17:06:51.765183",
+      "model": "distilgpt2",
+      "pipeline_config_name": "sft_only",
+      "dataset_name": "example_dataset",
+      "peft_config_name": "lora_r8_a16",
+      "seed": 42,
+      "stage_overrides": {
+        "sft": {
+          "learning_rate": 0.0001,
+          "num_train_epochs": 2,
+          "per_device_train_batch_size": 2,
+          "bf16": false,
+          "fp16": false,
+          "gradient_checkpointing": false,
+          "max_length": 512,
+          "packing": false
+        }
+      },
+      "stage_config_selections": null,
+      "wandb_run_url": null,
+      "status": "planned",
+      "final_model_path": null,
+      "metrics": null,
+      "tags": [
+        "suite:distilgpt2_quick_test",
+        "model:distilgpt2",
+        "pipeline:sft_only",
+        "dataset:example_dataset",
+        "seed:42",
+        "peft:lora_r8_a16"
+      ]
+    },
+    {
+      "experiment_id": "distilgpt2_sft-only_example_dataset_r8a16_sle0.0001-snu2-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse",
+      "suite_name": "distilgpt2_quick_test",
+      "created_at": "2025-06-20T17:06:51.765188",
+      "model": "distilgpt2",
+      "pipeline_config_name": "sft_only",
+      "dataset_name": "example_dataset",
+      "peft_config_name": "lora_r8_a16",
+      "seed": 42,
+      "stage_overrides": {
+        "sft": {
+          "learning_rate": 0.0001,
+          "num_train_epochs": 2,
+          "per_device_train_batch_size": 4,
+          "bf16": false,
+          "fp16": false,
+          "gradient_checkpointing": false,
+          "max_length": 512,
+          "packing": false
+        }
+      },
+      "stage_config_selections": null,
+      "wandb_run_url": null,
+      "status": "planned",
+      "final_model_path": null,
+      "metrics": null,
+      "tags": [
+        "suite:distilgpt2_quick_test",
+        "model:distilgpt2",
+        "pipeline:sft_only",
+        "dataset:example_dataset",
+        "seed:42",
+        "peft:lora_r8_a16"
+      ]
+    }
+  ]
+}

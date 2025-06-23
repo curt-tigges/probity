@@ -1,0 +1,37 @@
+{
+    "run_name": "distilgpt2_quick_test_distilgpt2_sft-laptop-only_example_dataset_distilgpt2_sle5e-05-snu1-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse",
+    "dataset_name": "example_dataset",
+    "run_type": "pipeline",
+    "created_at": "2025-06-20T17:03:08.531496",
+    "completed_at": "2025-06-20T17:03:19.069581",
+    "model": "distilgpt2",
+    "peft_config_name": "lora_default",
+    "stages": [
+        {
+            "stage_type": "sft",
+            "stage_config_name": "sft_default",
+            "dataset_name": "example_dataset_sft",
+            "starting_model": "distilbert/distilgpt2",
+            "final_loss": 3.5827736258506775,
+            "eval_loss": null,
+            "total_steps": 0,
+            "learning_rate": 5e-05,
+            "num_epochs": 1.0,
+            "batch_size": null
+        }
+    ],
+    "chain_info": null,
+    "pipeline_config_name": "sft_laptop_only",
+    "suite_name": null,
+    "experiment_id": null,
+    "wandb_project": null,
+    "wandb_run_urls": [],
+    "tags": [
+        "pipeline",
+        "sft_laptop_only",
+        "distilgpt2",
+        "sft"
+    ],
+    "status": "completed",
+    "error_message": null
+}

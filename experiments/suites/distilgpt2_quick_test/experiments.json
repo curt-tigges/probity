@@ -1,0 +1,336 @@
+{
+  "distilgpt2_example-dataset_example_dataset_distilgpt2_sle5e-05-snu1-spe4": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:36:37.493724",
+    "error_message": "Training failed: Pipeline configuration file not found at /Users/aviparrack/Soothcheck/configs/train/example_dataset.json. Please ensure 'example_dataset.json' exists in '/Users/aviparrack/Soothcheck/configs/train'."
+  },
+  "distilgpt2_example-dataset_example_dataset_distilgpt2_sle5e-05-snu1-spe8": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:36:37.494084",
+    "error_message": "Training failed: Pipeline configuration file not found at /Users/aviparrack/Soothcheck/configs/train/example_dataset.json. Please ensure 'example_dataset.json' exists in '/Users/aviparrack/Soothcheck/configs/train'."
+  },
+  "distilgpt2_example-dataset_example_dataset_distilgpt2_sle5e-05-snu2-spe4": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:36:37.494305",
+    "error_message": "Training failed: Pipeline configuration file not found at /Users/aviparrack/Soothcheck/configs/train/example_dataset.json. Please ensure 'example_dataset.json' exists in '/Users/aviparrack/Soothcheck/configs/train'."
+  },
+  "distilgpt2_example-dataset_example_dataset_distilgpt2_sle5e-05-snu2-spe8": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:36:37.494505",
+    "error_message": "Training failed: Pipeline configuration file not found at /Users/aviparrack/Soothcheck/configs/train/example_dataset.json. Please ensure 'example_dataset.json' exists in '/Users/aviparrack/Soothcheck/configs/train'."
+  },
+  "distilgpt2_example-dataset_example_dataset_distilgpt2_sle0.0001-snu1-spe4": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:36:37.494753",
+    "error_message": "Training failed: Pipeline configuration file not found at /Users/aviparrack/Soothcheck/configs/train/example_dataset.json. Please ensure 'example_dataset.json' exists in '/Users/aviparrack/Soothcheck/configs/train'."
+  },
+  "distilgpt2_example-dataset_example_dataset_distilgpt2_sle0.0001-snu1-spe8": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:36:37.496139",
+    "error_message": "Training failed: Pipeline configuration file not found at /Users/aviparrack/Soothcheck/configs/train/example_dataset.json. Please ensure 'example_dataset.json' exists in '/Users/aviparrack/Soothcheck/configs/train'."
+  },
+  "distilgpt2_example-dataset_example_dataset_distilgpt2_sle0.0001-snu2-spe4": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:36:37.496416",
+    "error_message": "Training failed: Pipeline configuration file not found at /Users/aviparrack/Soothcheck/configs/train/example_dataset.json. Please ensure 'example_dataset.json' exists in '/Users/aviparrack/Soothcheck/configs/train'."
+  },
+  "distilgpt2_example-dataset_example_dataset_distilgpt2_sle0.0001-snu2-spe8": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:36:37.496663",
+    "error_message": "Training failed: Pipeline configuration file not found at /Users/aviparrack/Soothcheck/configs/train/example_dataset.json. Please ensure 'example_dataset.json' exists in '/Users/aviparrack/Soothcheck/configs/train'."
+  },
+  "distilgpt2_example-dataset_example_dataset_r8a16_sle5e-05-snu1-spe4": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:36:37.496945",
+    "error_message": "Training failed: Pipeline configuration file not found at /Users/aviparrack/Soothcheck/configs/train/example_dataset.json. Please ensure 'example_dataset.json' exists in '/Users/aviparrack/Soothcheck/configs/train'."
+  },
+  "distilgpt2_example-dataset_example_dataset_r8a16_sle5e-05-snu1-spe8": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:36:37.497225",
+    "error_message": "Training failed: Pipeline configuration file not found at /Users/aviparrack/Soothcheck/configs/train/example_dataset.json. Please ensure 'example_dataset.json' exists in '/Users/aviparrack/Soothcheck/configs/train'."
+  },
+  "distilgpt2_example-dataset_example_dataset_r8a16_sle5e-05-snu2-spe4": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:36:37.497552",
+    "error_message": "Training failed: Pipeline configuration file not found at /Users/aviparrack/Soothcheck/configs/train/example_dataset.json. Please ensure 'example_dataset.json' exists in '/Users/aviparrack/Soothcheck/configs/train'."
+  },
+  "distilgpt2_example-dataset_example_dataset_r8a16_sle5e-05-snu2-spe8": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:36:37.498343",
+    "error_message": "Training failed: Pipeline configuration file not found at /Users/aviparrack/Soothcheck/configs/train/example_dataset.json. Please ensure 'example_dataset.json' exists in '/Users/aviparrack/Soothcheck/configs/train'."
+  },
+  "distilgpt2_example-dataset_example_dataset_r8a16_sle0.0001-snu1-spe4": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:36:37.498937",
+    "error_message": "Training failed: Pipeline configuration file not found at /Users/aviparrack/Soothcheck/configs/train/example_dataset.json. Please ensure 'example_dataset.json' exists in '/Users/aviparrack/Soothcheck/configs/train'."
+  },
+  "distilgpt2_example-dataset_example_dataset_r8a16_sle0.0001-snu1-spe8": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:36:37.499597",
+    "error_message": "Training failed: Pipeline configuration file not found at /Users/aviparrack/Soothcheck/configs/train/example_dataset.json. Please ensure 'example_dataset.json' exists in '/Users/aviparrack/Soothcheck/configs/train'."
+  },
+  "distilgpt2_example-dataset_example_dataset_r8a16_sle0.0001-snu2-spe4": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:36:37.500153",
+    "error_message": "Training failed: Pipeline configuration file not found at /Users/aviparrack/Soothcheck/configs/train/example_dataset.json. Please ensure 'example_dataset.json' exists in '/Users/aviparrack/Soothcheck/configs/train'."
+  },
+  "distilgpt2_example-dataset_example_dataset_r8a16_sle0.0001-snu2-spe8": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:36:37.500709",
+    "error_message": "Training failed: Pipeline configuration file not found at /Users/aviparrack/Soothcheck/configs/train/example_dataset.json. Please ensure 'example_dataset.json' exists in '/Users/aviparrack/Soothcheck/configs/train'."
+  },
+  "distilgpt2_sft-only_example_dataset_distilgpt2_sle5e-05-snu1-spe4": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:41:29.075825",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_distilgpt2_sle5e-05-snu1-spe8": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:41:30.974532",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_distilgpt2_sle5e-05-snu2-spe4": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:41:33.043211",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_distilgpt2_sle5e-05-snu2-spe8": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:41:35.167400",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_distilgpt2_sle0.0001-snu1-spe4": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:41:37.030876",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_distilgpt2_sle0.0001-snu1-spe8": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:41:38.887913",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_distilgpt2_sle0.0001-snu2-spe4": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:41:40.890646",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_distilgpt2_sle0.0001-snu2-spe8": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:41:42.717128",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_r8a16_sle5e-05-snu1-spe4": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:41:44.602314",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_r8a16_sle5e-05-snu1-spe8": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:41:46.550629",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_r8a16_sle5e-05-snu2-spe4": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:41:48.581958",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_r8a16_sle5e-05-snu2-spe8": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:41:50.574052",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_r8a16_sle0.0001-snu1-spe4": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:41:52.570068",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_r8a16_sle0.0001-snu1-spe8": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:41:54.414137",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_r8a16_sle0.0001-snu2-spe4": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:41:56.227513",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_r8a16_sle0.0001-snu2-spe8": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:41:58.281847",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_distilgpt2_sle5e-05-snu1-spe4-sbfFalse-sfpFalse-sgrFalse-sma512": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:47:18.093397",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_distilgpt2_sle5e-05-snu1-spe8-sbfFalse-sfpFalse-sgrFalse-sma512": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:47:20.029182",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_distilgpt2_sle5e-05-snu2-spe4-sbfFalse-sfpFalse-sgrFalse-sma512": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:47:21.850061",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_distilgpt2_sle5e-05-snu2-spe8-sbfFalse-sfpFalse-sgrFalse-sma512": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:47:23.977615",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_distilgpt2_sle0.0001-snu1-spe4-sbfFalse-sfpFalse-sgrFalse-sma512": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:47:25.933972",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_distilgpt2_sle0.0001-snu1-spe8-sbfFalse-sfpFalse-sgrFalse-sma512": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:47:27.779869",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_distilgpt2_sle0.0001-snu2-spe4-sbfFalse-sfpFalse-sgrFalse-sma512": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:47:29.611783",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_distilgpt2_sle0.0001-snu2-spe8-sbfFalse-sfpFalse-sgrFalse-sma512": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:47:31.468508",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_r8a16_sle5e-05-snu1-spe4-sbfFalse-sfpFalse-sgrFalse-sma512": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:47:33.355889",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_r8a16_sle5e-05-snu1-spe8-sbfFalse-sfpFalse-sgrFalse-sma512": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:47:35.282671",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_r8a16_sle5e-05-snu2-spe4-sbfFalse-sfpFalse-sgrFalse-sma512": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:47:37.098688",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_r8a16_sle5e-05-snu2-spe8-sbfFalse-sfpFalse-sgrFalse-sma512": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:47:38.947967",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_r8a16_sle0.0001-snu1-spe4-sbfFalse-sfpFalse-sgrFalse-sma512": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:47:40.857071",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_r8a16_sle0.0001-snu1-spe8-sbfFalse-sfpFalse-sgrFalse-sma512": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:47:42.658342",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_r8a16_sle0.0001-snu2-spe4-sbfFalse-sfpFalse-sgrFalse-sma512": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:47:44.537301",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_r8a16_sle0.0001-snu2-spe8-sbfFalse-sfpFalse-sgrFalse-sma512": {
+    "status": "failed",
+    "updated_at": "2025-06-20T16:47:46.436923",
+    "error_message": "Training failed: Your setup doesn't support bf16/gpu."
+  },
+  "distilgpt2_sft-only_example_dataset_distilgpt2_sle5e-05-snu1-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse": {
+    "status": "failed",
+    "updated_at": "2025-06-20T17:06:51.768673",
+    "error_message": "Training failed: Run directory already exists: experiments/example_dataset/distilgpt2_quick_test_distilgpt2_sft-only_example_dataset_distilgpt2_sle5e-05-snu1-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse"
+  },
+  "distilgpt2_sft-only_example_dataset_distilgpt2_sle5e-05-snu1-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse": {
+    "status": "failed",
+    "updated_at": "2025-06-20T17:06:51.770001",
+    "error_message": "Training failed: Run directory already exists: experiments/example_dataset/distilgpt2_quick_test_distilgpt2_sft-only_example_dataset_distilgpt2_sle5e-05-snu1-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse"
+  },
+  "distilgpt2_sft-only_example_dataset_distilgpt2_sle5e-05-snu2-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse": {
+    "status": "failed",
+    "updated_at": "2025-06-20T17:06:51.771305",
+    "error_message": "Training failed: Run directory already exists: experiments/example_dataset/distilgpt2_quick_test_distilgpt2_sft-only_example_dataset_distilgpt2_sle5e-05-snu2-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse"
+  },
+  "distilgpt2_sft-only_example_dataset_distilgpt2_sle5e-05-snu2-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse": {
+    "status": "failed",
+    "updated_at": "2025-06-20T17:06:51.772512",
+    "error_message": "Training failed: Run directory already exists: experiments/example_dataset/distilgpt2_quick_test_distilgpt2_sft-only_example_dataset_distilgpt2_sle5e-05-snu2-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse"
+  },
+  "distilgpt2_sft-only_example_dataset_distilgpt2_sle0.0001-snu1-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse": {
+    "status": "failed",
+    "updated_at": "2025-06-20T17:06:51.773702",
+    "error_message": "Training failed: Run directory already exists: experiments/example_dataset/distilgpt2_quick_test_distilgpt2_sft-only_example_dataset_distilgpt2_sle0.0001-snu1-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse"
+  },
+  "distilgpt2_sft-only_example_dataset_distilgpt2_sle0.0001-snu1-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse": {
+    "status": "failed",
+    "updated_at": "2025-06-20T17:06:51.775146",
+    "error_message": "Training failed: Run directory already exists: experiments/example_dataset/distilgpt2_quick_test_distilgpt2_sft-only_example_dataset_distilgpt2_sle0.0001-snu1-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse"
+  },
+  "distilgpt2_sft-only_example_dataset_distilgpt2_sle0.0001-snu2-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse": {
+    "status": "failed",
+    "updated_at": "2025-06-20T17:06:51.776240",
+    "error_message": "Training failed: Run directory already exists: experiments/example_dataset/distilgpt2_quick_test_distilgpt2_sft-only_example_dataset_distilgpt2_sle0.0001-snu2-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse"
+  },
+  "distilgpt2_sft-only_example_dataset_distilgpt2_sle0.0001-snu2-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse": {
+    "status": "failed",
+    "updated_at": "2025-06-20T17:06:51.777424",
+    "error_message": "Training failed: Run directory already exists: experiments/example_dataset/distilgpt2_quick_test_distilgpt2_sft-only_example_dataset_distilgpt2_sle0.0001-snu2-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse"
+  },
+  "distilgpt2_sft-only_example_dataset_r8a16_sle5e-05-snu1-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse": {
+    "status": "failed",
+    "updated_at": "2025-06-20T17:06:51.779033",
+    "error_message": "Training failed: Run directory already exists: experiments/example_dataset/distilgpt2_quick_test_distilgpt2_sft-only_example_dataset_r8a16_sle5e-05-snu1-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse"
+  },
+  "distilgpt2_sft-only_example_dataset_r8a16_sle5e-05-snu1-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse": {
+    "status": "failed",
+    "updated_at": "2025-06-20T17:06:51.780300",
+    "error_message": "Training failed: Run directory already exists: experiments/example_dataset/distilgpt2_quick_test_distilgpt2_sft-only_example_dataset_r8a16_sle5e-05-snu1-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse"
+  },
+  "distilgpt2_sft-only_example_dataset_r8a16_sle5e-05-snu2-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse": {
+    "status": "failed",
+    "updated_at": "2025-06-20T17:06:51.781742",
+    "error_message": "Training failed: Run directory already exists: experiments/example_dataset/distilgpt2_quick_test_distilgpt2_sft-only_example_dataset_r8a16_sle5e-05-snu2-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse"
+  },
+  "distilgpt2_sft-only_example_dataset_r8a16_sle5e-05-snu2-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse": {
+    "status": "failed",
+    "updated_at": "2025-06-20T17:06:51.782984",
+    "error_message": "Training failed: Run directory already exists: experiments/example_dataset/distilgpt2_quick_test_distilgpt2_sft-only_example_dataset_r8a16_sle5e-05-snu2-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse"
+  },
+  "distilgpt2_sft-only_example_dataset_r8a16_sle0.0001-snu1-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse": {
+    "status": "failed",
+    "updated_at": "2025-06-20T17:06:51.784450",
+    "error_message": "Training failed: Run directory already exists: experiments/example_dataset/distilgpt2_quick_test_distilgpt2_sft-only_example_dataset_r8a16_sle0.0001-snu1-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse"
+  },
+  "distilgpt2_sft-only_example_dataset_r8a16_sle0.0001-snu1-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse": {
+    "status": "failed",
+    "updated_at": "2025-06-20T17:06:51.785667",
+    "error_message": "Training failed: Run directory already exists: experiments/example_dataset/distilgpt2_quick_test_distilgpt2_sft-only_example_dataset_r8a16_sle0.0001-snu1-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse"
+  },
+  "distilgpt2_sft-only_example_dataset_r8a16_sle0.0001-snu2-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse": {
+    "status": "failed",
+    "updated_at": "2025-06-20T17:06:51.786974",
+    "error_message": "Training failed: Run directory already exists: experiments/example_dataset/distilgpt2_quick_test_distilgpt2_sft-only_example_dataset_r8a16_sle0.0001-snu2-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse"
+  },
+  "distilgpt2_sft-only_example_dataset_r8a16_sle0.0001-snu2-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse": {
+    "status": "failed",
+    "updated_at": "2025-06-20T17:06:51.788757",
+    "error_message": "Training failed: Run directory already exists: experiments/example_dataset/distilgpt2_quick_test_distilgpt2_sft-only_example_dataset_r8a16_sle0.0001-snu2-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse"
+  },
+  "distilgpt2_sft-laptop-only_example_dataset_distilgpt2_sle5e-05-snu1-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse": {
+    "status": "completed",
+    "updated_at": "2025-06-20T17:03:08.524226",
+    "final_model_path": "experiments/example_dataset/distilgpt2_quick_test_distilgpt2_sft-laptop-only_example_dataset_distilgpt2_sle5e-05-snu1-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse"
+  },
+  "distilgpt2_sft-laptop-only_example_dataset_distilgpt2_sle5e-05-snu1-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse": {
+    "status": "completed",
+    "updated_at": "2025-06-20T17:03:19.077990",
+    "final_model_path": "experiments/example_dataset/distilgpt2_quick_test_distilgpt2_sft-laptop-only_example_dataset_distilgpt2_sle5e-05-snu1-spe4-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse"
+  },
+  "distilgpt2_sft-laptop-only_example_dataset_distilgpt2_sle5e-05-snu2-spe2-sbfFalse-sfpFalse-sgrFalse-sma512-spaFalse": {
+    "status": "running",
+    "updated_at": "2025-06-20T17:03:19.079008"
+  }
+}
