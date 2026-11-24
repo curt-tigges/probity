@@ -6,10 +6,13 @@ import json
 from typing import Optional, Generic, TypeVar, TYPE_CHECKING, get_args, get_origin, Any
 import importlib
 
+# ProbeConfig is needed at runtime (issubclass/isinstance checks in load_json).
+# config.py imports nothing from probity, so this import is not circular.
+from .config import ProbeConfig
+
 # Use TYPE_CHECKING to avoid circular imports at runtime
 if TYPE_CHECKING:
     from .config import (
-        ProbeConfig,
         LinearProbeConfig,
         LogisticProbeConfig,
         MultiClassLogisticProbeConfig,
